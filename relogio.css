@@ -1,0 +1,44 @@
+body{
+    background-color: dimgrey;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+}
+.oclock{
+    color: black;
+    font-family: cursive;
+    text-align: center;
+    text-shadow: 0 0 20px white,
+    0 0 40px white,
+    0 0 60px white;
+    
+}
+.text{
+    font-size: 2.5em;
+    position: relative;
+    bottom: 100px;
+    letter-spacing: 0.1em;
+
+}
+p{
+    font-size: 5em;
+    position: relative;
+    bottom: 20px;
+}
+footer{
+    font-size: 0.4em;
+    color: red;
+    text-shadow: none;
+    letter-spacing: 0.1em;
+}
+@media only screen and ( max-width: 765px){
+    body{
+        background-color: black;
+        font-size: 1rem;
+    }
+    .oclock{
+        color: white;
+        font-size: .5rem;
+    }
+}
